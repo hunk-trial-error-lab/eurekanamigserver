@@ -67,7 +67,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 
 				<configuration>
-					<imageName>abhishektest/${project.artifactId}:${project.version}</imageName>
+					<imageName>hunktrialerrorlab/${project.artifactId}:${project.version}</imageName>
 					<dockerDirectory>./</dockerDirectory>
 					<resources>
 						<resource>
